@@ -1,7 +1,60 @@
-img {
-  width: 300px;
+@media (min-width: 360px) {
+  #animals {
+    width: 300px;
+  }
+
+  #animals h1 {
+    font-style: italic;
+  }
+  .sher {
+    width: auto;
+    margin-left: 10px;
+  }
+
+  #tiger {
+  }
+  #tiger .Khan {
+    width: auto;
+  }
+
+  .black {
+    width: auto;
+  }
+  #panter {
+    width: 300px;
+  }
+  #panter .black-panter {
+  }
 }
 
+#animals img {
+  width: 277px;
+}
+
+img {
+  width: 277px;
+}
+
+@media (min-width: 760px) {
+  #animals {
+    width: 400px;
+  }
+  #animals img {
+    width: 400px;
+  }
+  .black {
+    width: auto;
+  }
+}
+@media (min-width: 1200px) {
+  #animals {
+    width: auto;
+  }
+  #panter {
+  }
+  #panter .black-panter {
+  }
+}
 #animals h1 {
   background-color: aqua;
   color: red;
@@ -16,10 +69,10 @@ img {
   font-style: normal;
   font-size: medium;
 }
-#animals img {
-  margin: 50px;
+/* #animals img {  margin: 50px;
   width: 1000px;
-}
+}*/
+
 #animals {
   background-color: rgb(15, 59, 235);
 }

@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+  background-color: beige;
+}
+@media (min-width: 360px) {
+  #animals {
+    width: auto;
+    background-color: brown;
+  }
+
+  #Cats {
+  }
+
+  #Cats div {
+    float: none;
+    width: 100%;
+  }
+}
+
+@media (min-width: 600px) {
+  #animals {
+    width: auto;
+  }
+  #Cats div {
+    width: 100%;
+  }
+}
+@media (min-width: 992px) {
+  #animals {
+    width: auto;
+  }
+  #Cats div {
+    width: 50%;
+  }
+}
+#animals {
+  background-color: antiquewhite;
+}
+#animals h1 {
+  text-align: center;
+  color: blue;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding-top: 10px;
+}
+#animals h2 {
+  text-align: center;
+  color: blueviolet;
+}
+
+#animals img {
+  display: block;
+
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+#Cats {
+  margin: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+#Cats div {
+  border: 5px solid black;
+  box-shadow: 5px 5px 5px 5px red;
+  flex: 20%;
+  padding: 20px;
+}
+#Cats div img {
+  max-width: 100px;
+  border: 3px solid black;
+  margin: 30px;
+  border-radius: 10px;
+  margin-left: 50px;
+}
+#Cats div summary {
+  margin: 10px;
+}
+#Cats div details p {
+  color: pink;
+  font-size: xx-small;
+}
+#Cats div details summary {
+  color: blue;
+}
+#Cats .naslov {
+  text-shadow: 2px 2px rgb(255, 0, 111);
+  text-align: center;
+}
+.naslov:hover {
+  color: blue;
+  cursor: grab;
+}
+
+a {
+  color: rgb(132, 128, 128);
+  margin: 130px;
+  text-decoration: none;
+}
+
+footer {
+  background-color: yellow;
+  padding: 10px;
+}
+footer a {
+  margin: 5px;
+}
+footer a:hover {
+  color: palevioletred;
+}
